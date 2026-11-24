@@ -1,0 +1,5 @@
+name: bounded-fanout
+title: Bounded fanout
+description: Send a message or instruction to many targets in small, paced, verified batches: pilot first, pause between batches, retry only targets with no confirmed delivery, and close with counts that add up.
+category: "Work and knowledge"
+include_in_prompt: true

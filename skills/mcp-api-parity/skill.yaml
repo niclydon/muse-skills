@@ -1,0 +1,5 @@
+name: mcp-api-parity
+title: MCP API Parity
+description: "Discover API contract drift and missing tools for any MCP server repo: orient the repo, inventory existing tools against official docs and live endpoints, detect new or changed APIs and multi-endpoint composite-tool opportunities, and present a prioritized enhancement table, optionally filing one issue per item plus a kickoff prompt for a follow-up session. Use when the user says 'API parity', 'MCP endpoint discovery', 'check for new API tools', 'discover MCP API gaps', or asks to align an MCP toolset with the live upstream API."
+category: "Work and knowledge"
+include_in_prompt: true

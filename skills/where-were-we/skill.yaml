@@ -1,0 +1,5 @@
+name: where-were-we
+title: "Where Were We"
+description: "Re-ground a stale chat from current state, not from its own last word: what the thread was for, what is already done, what is still open and who owns each item, and the single next step. Saying /www runs the same method in compressed form."
+category: "Work and knowledge"
+include_in_prompt: true

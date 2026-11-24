@@ -1,0 +1,5 @@
+name: whats-next
+title: What's Next
+description: Session-start orientation briefing for a project repo: read its changelog, plan docs, recent commits, working-tree state, and plan-related TODOs, then report where work left off, the open items in priority order, any blockers, and a single recommended next step. Use when the user asks what's next here, where did we leave off, or how a project is looking after time away.
+category: "Work and knowledge"
+include_in_prompt: true

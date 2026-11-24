@@ -1,0 +1,272 @@
+# Catalog for niclydon/muse-skills
+#
+# This file is the menu. If you are a Muse reading this repo for your user,
+# read ADOPT.md first: it tells you how to present this catalog as a menu,
+# take your user's picks, and install what they chose.
+#
+# Fields:
+#   id           folder name, also the installed skill name
+#   type         skill | pattern | template
+#   title        human title
+#   group        menu grouping
+#   path         path inside this repo
+#   summary      one line, written for the user, not for you
+#   needs        connectors, tools, or setup the item depends on (empty = none)
+#   effort       drop-in | light-adaptation | setup-project
+#   pairs_with   ids that work well together (optional)
+
+version: 1
+
+items:
+  # Getting oriented
+  - id: where-were-we
+    type: skill
+    title: Where Were We
+    group: Getting oriented
+    path: skills/where-were-we
+    summary: Re-ground a stale chat from current state: what it was for, what is done, what is open and who owns it, and the single next step.
+    needs: []
+    effort: drop-in
+  - id: whats-next
+    type: skill
+    title: What's Next
+    group: Getting oriented
+    path: skills/whats-next
+    summary: The same re-grounding for a code project: where work left off, open items in priority order, one recommended next step.
+    needs: []
+    effort: drop-in
+    pairs_with: [where-were-we]
+  - id: blockers
+    type: skill
+    title: Blockers
+    group: Getting oriented
+    path: skills/blockers
+    summary: Name every blocker in a thread, prove each one is real, then clear them one by one in the order they gate other work.
+    needs: []
+    effort: drop-in
+
+  # Running the chat list
+  - id: chat-tidy
+    type: skill
+    title: Chat Tidy
+    group: Running the chat list
+    path: skills/chat-tidy
+    summary: Rename chats with a family emoji and a status emoji (needs you, waiting, done, parked) so a long list reads at a glance, plus an approval-gated archive pass.
+    needs: []
+    effort: light-adaptation
+  - id: baton-pass
+    type: skill
+    title: Baton Pass
+    group: Running the chat list
+    path: skills/baton-pass
+    summary: Hand a long or stale chat to a fresh successor with a complete written brief, retarget its scheduled deliveries, and archive the old chat only after the successor proves it holds the baton.
+    needs: []
+    effort: light-adaptation
+  - id: bounded-fanout
+    type: skill
+    title: Bounded Fanout
+    group: Running the chat list
+    path: skills/bounded-fanout
+    summary: Send an instruction to many chats or targets in small, paced, verified batches: pilot first, retry only what did not land, close with counts that add up.
+    needs: []
+    effort: drop-in
+
+  # Shipping code
+  - id: ship
+    type: skill
+    title: Ship It
+    group: Shipping code
+    path: skills/ship
+    summary: One instruction that runs the whole pipeline: document, commit, merge, push, deploy through the repo's own path, verify live, clean up, end current on main.
+    needs: [git, GitHub]
+    effort: light-adaptation
+    pairs_with: [narrative-docs-update, adversarial-review, worktree-janitor]
+  - id: narrative-docs-update
+    type: skill
+    title: Narrative Docs Update
+    group: Shipping code
+    path: skills/narrative-docs-update
+    summary: Write the documentary record of a finished piece of work into its own repo: a long-form narrative, a CHANGES.md entry, and plan-doc updates.
+    needs: [git]
+    effort: drop-in
+  - id: adversarial-review
+    type: skill
+    title: Adversarial Review
+    group: Shipping code
+    path: skills/adversarial-review
+    summary: Before a risky change merges, independent reviewers each take a lens and try to break it; every finding is triaged fix, defer, or decline with a reason.
+    needs: [git]
+    effort: light-adaptation
+  - id: worktree-janitor
+    type: skill
+    title: Worktree Janitor
+    group: Shipping code
+    path: skills/worktree-janitor
+    summary: Prune git worktrees only when their work is provably merged; anything uncertain is kept and named.
+    needs: [git]
+    effort: light-adaptation
+  - id: project-retrospective
+    type: skill
+    title: Project Retrospective
+    group: Shipping code
+    path: skills/project-retrospective
+    summary: Close out a finished project from the evidence: what shipped (with ids), what slipped and why, and what to change next time.
+    needs: [git]
+    effort: drop-in
+  - id: repo-health-scan
+    type: skill
+    title: Repo Health Scan
+    group: Shipping code
+    path: skills/repo-health-scan
+    summary: A read-only sweep of your repos for forgotten TODOs, stale docs, and buried problems, filed as one clean issue per finding.
+    needs: [git, GitHub]
+    effort: light-adaptation
+  - id: upgrades-scan
+    type: skill
+    title: Upgrades Scan
+    group: Shipping code
+    path: skills/upgrades-scan
+    summary: A read-only scan of any surface (a repo, a service, a tool set) that returns one ranked list of updates, fixes, upgrades, and enhancements to dispose item by item.
+    needs: []
+    effort: drop-in
+  - id: mcp-api-parity
+    type: skill
+    title: MCP API Parity
+    group: Shipping code
+    path: skills/mcp-api-parity
+    summary: Compare an MCP server's tools against the upstream API it wraps, find the drift and the missing tools, and produce a prioritized work table.
+    needs: [git]
+    effort: light-adaptation
+
+  # Checking your work
+  - id: verify-background-results
+    type: skill
+    title: Verify Background Results
+    group: Checking your work
+    path: skills/verify-background-results
+    summary: Never relay or act on a background or delegated result until a quick foreground check reproduces its numbers and claims.
+    needs: []
+    effort: drop-in
+  - id: check-the-record
+    type: skill
+    title: Check the Record
+    group: Checking your work
+    path: skills/check-the-record
+    summary: Read the item's own record before stating a detail about it, and check for an already-paid equivalent before recommending a paid alternative.
+    needs: []
+    effort: drop-in
+  - id: do-it-yourself-first
+    type: skill
+    title: Do It Yourself First
+    group: Checking your work
+    path: skills/do-it-yourself-first
+    summary: Exhaust the routes you can take yourself (connectors, APIs, small scripts) before handing the user a manual step, and verify every write with a read-back.
+    needs: []
+    effort: drop-in
+  - id: verify-signin-route
+    type: skill
+    title: Verify the Sign-In Route
+    group: Checking your work
+    path: skills/verify-signin-route
+    summary: Before promising a web task, check how the site actually signs your user in and route through the browser profile where they are already signed in.
+    needs: []
+    effort: drop-in
+  - id: gui-input-verification
+    type: skill
+    title: GUI Input Verification
+    group: Checking your work
+    path: skills/gui-input-verification
+    summary: Never type into a screen you have not just looked at: capture first, confirm the front window, work in small batches, re-capture after every change.
+    needs: [a screen-capture tool]
+    effort: drop-in
+  - id: verification-shape-parity
+    type: skill
+    title: Verification Shape Parity
+    group: Checking your work
+    path: skills/verification-shape-parity
+    summary: Test fixtures must mirror the production system's real constraints and shapes, or a green test suite proves nothing.
+    needs: []
+    effort: drop-in
+  - id: pipeline-coverage-freshness
+    type: skill
+    title: Pipeline Coverage Freshness
+    group: Checking your work
+    path: skills/pipeline-coverage-freshness
+    summary: Catch a data pipeline stage that looks active while quietly covering no current data, by comparing content dates stage to stage.
+    needs: [a data pipeline]
+    effort: light-adaptation
+  - id: gold-source-coverage
+    type: skill
+    title: Gold Source Coverage
+    group: Checking your work
+    path: skills/gold-source-coverage
+    summary: Census every source a unified (gold) table claims to cover and fail loudly on the sources it silently strands.
+    needs: [a data pipeline]
+    effort: light-adaptation
+
+  # Money and life admin
+  - id: receipt-matcher
+    type: skill
+    title: Receipt Matcher
+    group: Money and life admin
+    path: skills/receipt-matcher
+    summary: Explain the charges on a statement by matching each one to a receipt email on amount, date, and merchant, and report what cannot be explained.
+    needs: [Gmail connector, Plaid connector]
+    effort: drop-in
+  - id: weekly-review
+    type: skill
+    title: Weekly Review
+    group: Money and life admin
+    path: skills/weekly-review
+    summary: One weekly document that answers "how was my week" from evidence: goals, commitments, spending, health, and what slipped and why.
+    needs: [Plaid connector for the money section]
+    effort: light-adaptation
+  - id: trip-debrief
+    type: skill
+    title: Trip Debrief
+    group: Money and life admin
+    path: skills/trip-debrief
+    summary: Close out a trip by fusing booking emails, calendar, photos, and recordings into one canonical record and summary.
+    needs: [Gmail connector, Google Calendar connector]
+    effort: light-adaptation
+
+  # Patterns (read, discuss, then set up together)
+  - id: journal-and-morning-paper
+    type: pattern
+    title: Journal and Morning Paper
+    group: Patterns
+    path: patterns/journal-and-morning-paper
+    summary: Your Muse keeps a twice-a-day journal (an afternoon reading, a night reading that settles the day) and writes a one-page morning paper your other chats read when they start.
+    needs: [scheduled jobs]
+    effort: setup-project
+  - id: standing-orders
+    type: pattern
+    title: Standing Orders
+    group: Patterns
+    path: patterns/standing-orders
+    summary: Lessons stop getting lost: they queue as candidates, you approve them in a batch, and the approved list lives in one file your Muse reads at the start of every session.
+    needs: []
+    effort: light-adaptation
+    pairs_with: [journal-and-morning-paper]
+  - id: drafts-gate
+    type: pattern
+    title: Drafts Gate
+    group: Patterns
+    path: patterns/drafts-gate
+    summary: Let your Muse draft posts for public rooms without ever holding the send token: a separate process holds the token, sends the drafts, and diverts flagged ones to you for approval.
+    needs: [a chat platform bot setup]
+    effort: setup-project
+
+  # Templates
+  - id: persona-files
+    type: template
+    title: Persona Files (SOUL / IDENTITY / AGENTS)
+    group: Templates
+    path: templates/persona
+    summary: Blank templates for the three standing files that give your Muse a stable character, an identity, and a growing list of operating lessons.
+    needs: []
+    effort: light-adaptation
+
+starter_set:
+  note: A good first install for most people. Small, no connectors needed, useful in the first week.
+  items: [where-were-we, blockers, verify-background-results, check-the-record, do-it-yourself-first, persona-files]

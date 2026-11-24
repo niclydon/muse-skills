@@ -1,0 +1,5 @@
+name: "repo-health-scan"
+title: "Repo Health Scan"
+description: "Run a read-only maintenance pass over your repos: forgotten TODOs, stale plan docs, CHANGES.md follow-ups, buried bug patterns, and orphaned schema or handlers, deduped against existing issues and filed as one well-scoped GitHub issue per finding. Diagnoses and files only; never edits, fixes, commits, or pushes. Use for a repo hygiene sweep or to warm up a maintenance backlog."
+category: "Work and knowledge"
+include_in_prompt: true

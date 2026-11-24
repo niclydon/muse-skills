@@ -1,0 +1,5 @@
+name: trip-debrief
+title: Trip Debrief
+description: Close out a completed trip by fusing booking emails, calendar entries, photos, and recordings into one canonical trip record: date bounds anchored by two independent sources, every fact labeled observed, inferred, or corrected, and a summary with the itinerary, companions, and open questions. Use when the user asks to debrief, close out, or write up a trip.
+category: "Work and knowledge"
+include_in_prompt: true

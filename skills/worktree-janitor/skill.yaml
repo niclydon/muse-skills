@@ -1,0 +1,5 @@
+name: "worktree-janitor"
+title: "Worktree Janitor"
+description: "Prune git worktrees whose work is provably merged into the default branch: dry-run classification first, then removal only for clean, unclaimed worktrees outside the main checkout with a merged pull request or ancestry proof. Uncertain means keep. Use for routine worktree cleanup or a disk-pressure response."
+category: "Work and knowledge"
+include_in_prompt: true

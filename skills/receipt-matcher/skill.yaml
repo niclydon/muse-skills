@@ -1,0 +1,5 @@
+name: receipt-matcher
+title: Receipt Matcher
+description: Explain bank and card charges by matching each transaction from Plaid against receipt, invoice, and order-confirmation emails in Gmail, using amount, date, and merchant as three required signals, and report matched, unmatched, and duplicate-suspect charges with the evidence for each. Use when the user asks what a charge is, wants receipts matched, or wants a statement reconciled.
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: baton-pass
+title: "Baton Pass"
+description: "Hand a long or stale side chat's work to a fresh successor chat: read its entire history, write a comprehensive baton brief, start the successor seeded with that brief, retarget anything that delivers into the old chat, and archive the old chat only after the successor proves it holds the baton."
+category: "Work and knowledge"
+include_in_prompt: true

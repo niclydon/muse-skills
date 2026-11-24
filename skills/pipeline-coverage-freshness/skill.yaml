@@ -1,0 +1,5 @@
+name: pipeline-coverage-freshness
+title: Check pipeline stage coverage freshness
+description: Detect an ingestion or extraction stage that looks active while its coverage of current data has silently stopped, by comparing the newest content date at each stage and tracing a known item end to end.
+category: "Work and knowledge"
+include_in_prompt: true

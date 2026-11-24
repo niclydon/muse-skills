@@ -1,0 +1,5 @@
+name: gold-source-coverage
+title: Census gold table source coverage
+description: "Audit a gold (unified) table or view against every ingested source in its domain, so stranded sources, silent subsets, and duplicate canonical forms surface instead of passing as complete. Use when a unified table is built, rebuilt, or about to be trusted to answer questions for a whole domain."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: blockers
+title: "Blockers"
+description: "Work a chat's blockers one by one: name every blocker, prove each is real against current state, order them by what they gate, clear the ones clearable under existing authority, and bring the user the ones needing their decision singly."
+category: "Work and knowledge"
+include_in_prompt: true

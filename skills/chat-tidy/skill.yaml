@@ -1,0 +1,5 @@
+name: "chat-tidy"
+title: "Chat Tidy"
+description: "Rename side chats with a family emoji and a status emoji (needs you, waiting, done, parked) so a long chat list can be read at a glance, plus an approval-gated archive pass for chats that are genuinely complete. Use when the user says tidy the chats, rename the chats, run the naming sweep, or asks which chats can be archived."
+category: "Work and knowledge"
+include_in_prompt: true

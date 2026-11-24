@@ -1,0 +1,5 @@
+name: weekly-review
+title: Weekly Review
+description: Produce one weekly review document that answers "how was my week" from evidence: goals, tracked tasks and commitments, projects, spending through Plaid, health from connected health apps, and daily notes, with week-over-week comparisons and a named list of what slipped and why. Use when the user asks for a weekly review, a week in review, or how their week went.
+category: "Work and knowledge"
+include_in_prompt: true

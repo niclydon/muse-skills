@@ -1,0 +1,5 @@
+name: "verify-signin-route"
+title: "Verify the Sign-In Route"
+description: "Check how a website actually signs the user in (single sign-on, saved password, or already signed in) before promising or starting a web task, and route sign-on work through the browser profile where the user is already signed in. Use before any web task that needs an account, a booking, or a purchase."
+category: "Work and knowledge"
+include_in_prompt: true

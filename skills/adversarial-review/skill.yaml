@@ -1,0 +1,5 @@
+name: adversarial-review
+title: Adversarial Review
+description: "Run an adversarial review before merging a high-blast-radius change: independent reviewers, each on a distinct lens, prompted to break the change rather than bless it, then triage every finding. Trigger when a change touches a production gateway/service, a database migration or backfill, auth/secrets/tool grants, a public surface, the deploy path, or reward/financial/concurrency semantics; or when the user says 'run an adversarial review' or 'red-team this change'. Skip for docs, surgical single-file fixes, config tweaks, additive non-load-bearing features, and test-only changes."
+category: "Work and knowledge"
+include_in_prompt: true

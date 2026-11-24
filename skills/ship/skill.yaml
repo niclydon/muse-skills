@@ -1,0 +1,5 @@
+name: "ship"
+title: "Ship It"
+description: "Ship the current work end to end as one instruction: update the narrative docs, commit, squash-merge, push, deploy through the repo's own deploy path, verify live with one line of production evidence, clean up worktrees and branches, and leave the checkout current on main. Use when the user says ship it."
+category: "Work and knowledge"
+include_in_prompt: true

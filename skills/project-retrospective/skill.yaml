@@ -1,0 +1,5 @@
+name: project-retrospective
+title: Project Retrospective
+description: "Close out a finished project with a retrospective or post-mortem: fuse git history, closed tickets, narrative docs, and notes into what shipped (with evidence), what slipped and why (grounded, not guessed), and what to change next time. Trigger on 'retrospective', 'close out the project', 'post-mortem', or 'project review'."
+category: "Work and knowledge"
+include_in_prompt: true

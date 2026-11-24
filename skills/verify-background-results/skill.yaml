@@ -1,0 +1,5 @@
+name: verify-background-results
+title: Verify background and delegated results
+description: Verify a background, delegated, or subagent result against live sources before relaying it or acting on it, so fabricated aggregates and stale state claims never reach the user or drive writes.
+category: "Work and knowledge"
+include_in_prompt: true

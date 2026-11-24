@@ -1,0 +1,5 @@
+name: "gui-input-verification"
+title: "GUI Input Verification"
+description: "Capture the screen fresh and confirm the front window and focus before sending any clicks or keystrokes, work in small batches with a re-capture after each one, and stop rather than type blind. Use whenever driving a graphical interface remotely or by automation."
+category: "Work and knowledge"
+include_in_prompt: true

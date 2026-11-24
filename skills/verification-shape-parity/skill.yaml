@@ -1,0 +1,5 @@
+name: verification-shape-parity
+title: Verify against production-shaped fixtures
+description: Mirror the production system's real constraints, grants, column types, and response shapes in your test fixtures and test store, exercise every claimed path against that shape, and report any parity gap as a finding.
+category: "Work and knowledge"
+include_in_prompt: true

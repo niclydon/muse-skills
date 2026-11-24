@@ -1,0 +1,5 @@
+name: check-the-record
+title: Check the record before asserting a detail
+description: Read the specific item's own record before stating a detail about it, check for an already booked or paid equivalent before recommending a paid alternative, and label anything not tied to a record as inferred or unverified.
+category: "Work and knowledge"
+include_in_prompt: true

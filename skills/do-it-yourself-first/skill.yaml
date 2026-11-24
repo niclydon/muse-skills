@@ -1,0 +1,5 @@
+name: do-it-yourself-first
+title: Do it yourself first
+description: Exhaust the agent-side routes (connector write tools, APIs reached with stored credentials, short in-process scripts) before handing the user a manual step, and verify the inner result of every write with an independent read-back.
+category: "Work and knowledge"
+include_in_prompt: true

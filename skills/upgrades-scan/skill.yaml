@@ -1,0 +1,5 @@
+name: upgrades-scan
+title: "Upgrades Scan"
+description: "Run a read-only scan of a named surface and return a ranked, evidence-backed inventory of opportunities: updates, fixes, upgrades, and enhancements, deduped against work already tracked or decided, ready for the user to dispose item by item."
+category: "Work and knowledge"
+include_in_prompt: true

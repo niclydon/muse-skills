@@ -1,0 +1,5 @@
+name: "narrative-docs-update"
+title: "Narrative Docs Update"
+description: "Write the documentary record of a completed arc of work into the work's own repo: a long-form narrative in docs/narrative/, a CHANGES.md entry that points at it, and plan-doc updates. Use when the user asks for a narrative update, says update the docs or document this, and as the documentation step of shipping."
+category: "Work and knowledge"
+include_in_prompt: true
