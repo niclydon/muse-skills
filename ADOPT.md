@@ -2,15 +2,16 @@
 
 A person has pointed you at this repo and wants to take some of it into their own Muse setup. This file is your instructions. The human-facing overview is in README.md; the menu is in catalog.yaml.
 
-## Step 0: Get the repo locally first
+## Step 0: Clone the repo first
 
-Before anything else, get a local copy of this repo and work from it:
+This repo is a git repo, and the steps below copy folders out of it, so browsing its pages on the website is not enough. Before anything else, clone it and work from that checkout:
 
 ```
-git clone https://github.com/niclydon/muse-skills
+git clone https://github.com/niclydon/muse-skills.git
+cd muse-skills
 ```
 
-If git is not available in your environment, download the repo as an archive from the GitHub page (Code, then Download ZIP) and unpack it instead. Either way, you need the actual files on disk: the steps below copy folders out of this repo, and reading the pages on the website is not enough to do that. Once you have the local copy, run every later step from inside it.
+Run every later step from inside that checkout. If git is genuinely unavailable in your environment, download the archive from the GitHub page (Code, then Download ZIP), unpack it, and work from the unpacked folder instead.
 
 ## What this repo is
 
