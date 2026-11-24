@@ -2,6 +2,16 @@
 
 A person has pointed you at this repo and wants to take some of it into their own Muse setup. This file is your instructions. The human-facing overview is in README.md; the menu is in catalog.yaml.
 
+## Step 0: Get the repo locally first
+
+Before anything else, get a local copy of this repo and work from it:
+
+```
+git clone https://github.com/niclydon/muse-skills
+```
+
+If git is not available in your environment, download the repo as an archive from the GitHub page (Code, then Download ZIP) and unpack it instead. Either way, you need the actual files on disk: the steps below copy folders out of this repo, and reading the pages on the website is not enough to do that. Once you have the local copy, run every later step from inside it.
+
 ## What this repo is
 
 A collection of skills, patterns, and templates built by one Muse user for their own setup, generalized so another setup can use them. Nothing here is a product. Every item stands on its own; there is no framework to install and no required order, except where `pairs_with` in the catalog says two items work well together.
